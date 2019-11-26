@@ -1,0 +1,73 @@
+label {
+  color: rgb(0, 0, 12);
+}
+.button {
+  background-color: red;
+}
+#box {
+  background-color: rgb(241, 236, 236);
+}
+#box h1 {
+  text-align: center;
+  color: green;
+}
+#box label {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+#box input[type="text"] {
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+  height: 5vh;
+  width: 30%;
+  border: none;
+  border-bottom: 1px solid skyblue;
+}
+#box input[type="text"]:hover {
+  border-bottom: 1px solid black;
+  width: 40%;
+}
+#box input[type="text"]:focus {
+  height: 8vh;
+  width: 40%;
+  background-color: white;
+}
+#box input[type="radio"] {
+  margin-left: 50px;
+}
+#box input[type="radio"]:hover {
+  width: 20px;
+  height: 5vh;
+}
+#box select {
+  border: none;
+  height: 5vh;
+  width: 20%;
+  margin-left: 35px;
+}
+#box textarea {
+  margin-left: 30px;
+}
+#box button {
+  height: 7vh;
+  width: 10%;
+  background-color: rgb(86, 22, 105);
+  color: rgb(245, 239, 239);
+  border: none;
+  margin-left: 30px;
+}
+#box button:hover {
+  height: 7.5vh;
+  width: 12%;
+}
+#NavLink {
+  color: black;
+  margin-left: 40px;
+
+  font-weight: bold;
+  font-size: 30px;
+}
+#NavLink:hover {
+  color: red;
+}
